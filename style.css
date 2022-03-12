@@ -267,7 +267,7 @@ body {
     width: 100vw;
     max-width: 500px;
     max-height: 500px;
-    display: none;
+    display: block;
 }
 
 
@@ -460,7 +460,7 @@ body {
           .title-text{
             margin-top: 0;
             padding-top: 50px;
-            font-size: 50px;
+            font-size: 35px;
           }
 /* 
           
@@ -561,7 +561,7 @@ body {
     width: 100vw;
     max-width: 500px;
     max-height: 500px;
-    display: none;
+    display: bl;
 }
 
   footer{
@@ -758,14 +758,16 @@ body {
 
 
             @media only screen and (max-width: 400px){
-              /* body{
-                background-color: brown;
-              } */
+              body{
+                /* background-color: brown; */
+                padding: 0;
+                margin: 0;
+              }
 
  .signupFormWrapper{
     position: absolute;
     top: 50%;
-    left: 37%;
+    left: 30%;
     transform: translate(-50%, -50%);
     z-index: 10;
     /* border: 2px solid red; */
@@ -777,21 +779,54 @@ body {
     display: block;
 }
 
+/* #signupContainer{
+  width: 500px;
+} */
+
         .log-in-wrapper{
      position: absolute;
-    top: 60%;
-    left: 42%;
+    top: 50%;
+    left: 15%;
     transform: translate(-50%, -50%);
     z-index: 10;
     /* border: 2px solid red; */
     /* text-align: center; */
     height: 100vh;
     width: 100vw;
-    max-width: 500px;
+    max-width: 200px;
     max-height: 500px;
-    display: none;
+    display: block;
+    /* padding: 0 10px; */
 }
 
+
+ .login-text{
+    color: black;
+    font-weight: var(--maxi-darker-weight);
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+
+  .base-text-wrapper{
+    width: 200%;
+    margin-left: 20px;
+  }
+
+     .base-text{
+        /* text-align: center; */
+        padding-top: 10px;
+        color: rgba(174, 174, 174, 1);
+        font-weight: var(--darker-weight);
+        font-size: 15px;
+        /* margin-left: 70px; */
+        text-align: center;
+      }
+      
+        .base-text span a {
+        color: var(--primary-color);
+        text-decoration: none;
+      }
 
      .social-class{
        /* border: 2px solid green; */
@@ -871,7 +906,7 @@ body {
       
 
       .bottom-text-wrapper{
-        margin-left: 100px;
+        margin-right: 100px;
       }
 
       .bottom-text{
@@ -879,9 +914,10 @@ body {
         padding-top: 10px;
         color: rgba(174, 174, 174, 1);
         font-weight: var(--darker-weight);
-        font-size: 15px;
+        font-size: 12px;
         /* margin-left: 70px; */
         text-align: center;
+        margin-left: 100px;
       }
       
       .bottom-text span{
@@ -901,6 +937,24 @@ body {
             height: 50px;
             width: 150px;
           }
+
+          .logInFormWrapper{
+            width: 100%;
+          }
+
+           #logInForm-button{
+    display: block;
+    width: 200%;
+    margin-left: 40px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 45px;
+    background-color: var(--primary-color);
+    border: none;
+    color: #ffffff;
+    font-weight: var(--darker-weight);
+  }
 
 
             }

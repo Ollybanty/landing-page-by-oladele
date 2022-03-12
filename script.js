@@ -1,5 +1,5 @@
-var openTray = document.querySelector(".pleaseSignIn");
+// var openTray = document.querySelector(".pleaseSignIn");
 
-function openTray() {
-    document.querySelector(".log-in-wrapper").style.display = "block";
-}
+// function openTray() {
+//     document.querySelector(".log-in-wrapper").style.display = "block";
+// }
